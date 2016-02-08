@@ -1,0 +1,23 @@
+		
+			body {
+    			background-color: white;
+				}
+		
+			h1 {
+    			color: black;
+				}
+    		
+    		div.login_container {
+        		background: #CCCCCC;
+        		color: black;
+        		border-radius: 1em;
+        		padding: 1em;
+        		position: absolute;
+        		top: 50%;
+        		left: 50%;
+        		margin-right: -50%;
+        		transform: translate(-50%, -50%);
+        		
+        		text-align: center;
+        		}
+		

@@ -1,0 +1,1 @@
+VanillaHRM is an original, 'from scratch' learning project HRM (Human Resource Management System) written in straight PHP, JS, and HTML/CSS, without the use of any frameworks, libraries, or other codebases.

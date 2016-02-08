@@ -1,0 +1,542 @@
+/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* Several errors may exist. Check console log. If no errors or notices, remove this comment. */
+
+
+/*========================================================================== */
+/* VanillaHRM Custom Styles */
+/*========================================================================== */
+
+h1 {
+	
+}
+
+h2 {
+    /* display: block;
+    font-size: 1.5em; */
+    margin-top: 0.0em;
+    margin-bottom: 0.2em;
+    margin-left: 0;
+    margin-right: 0;
+    /*font-weight: bold;
+    color: #FFFFFF; */
+}
+
+div.login_container {
+	background: #CCCCCC;
+	color: black;
+	border-radius: 1em;
+	padding: 1em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+
+	text-align: center;
+}
+
+/* Message_Container doesn't seem to work for some reason */
+div.message_container {
+	background: #CCCCCC;
+	color: black;
+	border-radius: 1em;
+	padding: 1em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+
+	text-align: center;
+}
+
+
+div.app_wrapper {
+	/* position: absolute; */
+	/* top: 50%; */
+	/* left: 50%; */
+	/* margin-right: -50%; */
+	/* margine-top: -50%; */
+	/* margin-left: -50%; */
+	/* display: block; */
+	/* margin-left: auto;
+	margin-right: auto; */
+	/* transform: translate(-50%, -50%); */
+
+	text-align: center;
+}
+
+div.app_container {
+	background: #BBBCCC;
+	/* background: #EEECCC; */
+	/* background: #CCCCCC; */
+	color: black;
+	border-radius: 1em;
+	padding: 1em;
+	/* position: relative; */
+	/* display: block; */
+	display: inline-block;
+	/* margin-left: auto;
+	margin-right: auto; */
+	/* margin-top: 25%;
+	top: 50%; */
+	/* left: 50%; */
+	/* margin-right: -50%; */
+	/* margin-left: -50%; */
+	/* transform: translate(-50%, -50%); */
+
+	text-align: center;
+}
+
+div.data_input {
+	/* background: #FFFFEE; */
+	background: #DDDDDD;
+	border-radius: 0.5em;
+}
+
+table {
+	/* Doesn't Work: border-radius: 0.5em; */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td {
+	background: #FFFFFF;
+	padding: 0;
+	border: 0;
+}
+
+td.data_input {
+	background: #DDDDDD;
+	padding: 0;
+	border: 0;
+}
+
+td.data_output {
+	background: #CCCCCC;
+	padding: 0;
+	border: 2px solid;
+}
+
+/* This should be the element I use for table headers
+ * Example: 
+
+  <table>
+ <tr>
+   <th>Month</th>
+   <th>Savings</th>
+ </tr>
+ <tr>
+   <td>January</td>
+   <td>$100</td>
+ </tr>
+</table>
+ 
+  */
+th {
+	
+}
+
+td.data_output_cells {
+	background: #DDDDDD;
+	/* width: 0px; */
+	border: 0;
+	padding-top: 3px;
+    padding-right: 30px;
+    padding-bottom: 3px;
+    padding-left: 30px;
+	white-space: nowrap;
+	/*overflow-x: auto;
+	overflow-y: hidden;
+	overflow: hidden;
+    text-overflow: ellipsis; */
+}
+
+td.data_output_headers {
+	background: #EEEEEE;
+	/* width: 0px; */
+	/* border: 5;
+	padding: 5; */
+	padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+	white-space: nowrap;
+	/*overflow-x: auto;
+	overflow-y: hidden;
+	overflow: hidden;
+    text-overflow: ellipsis; */
+}
+
+hr {
+	 border: 1;
+	 border-bottom: 1px dashed #CCCCCC;
+	 background: #FFFFFF;
+}
+
+#footer_wrapper {
+	/* background: #CCCCCC; */
+	/* color: black;
+	border-radius: 1em;
+	padding: 1em; */
+	/* position: relative; */
+	/* display: block; */
+	display: block;
+	/* margin: 0px auto; */
+	/* width: 0px; */
+	/*margin-top: 300px; */
+	width: 100%;
+	margin-top: 1em;
+	margin-left: 0px auto;
+	margin-rgiht: 0px auto;
+	/* padding-top: 50px; */
+	/* margin: 0px auto; */
+	/* margin-left: auto;
+	margin-right: auto; */
+	/* margin-top: 25%;
+	top: 50%; */
+	/* left: 50%; */
+	/* margin-right: -50%; */
+	/* margin-left: -50%; */
+	/* transform: translate(-50%, -50%); */
+	/* text-align: center; */
+}
+
+#footer_container {
+	/* background: #CCCCCC; */
+	/* color: black;
+	border-radius: 1em;
+	padding: 1em; */
+	/* position: relative; */
+	/* display: block; */
+	width: 95%;
+	margin: 0px auto;
+	display: block;
+	/* margin: 0px auto; */
+	/* margin-left: auto;
+	margin-right: auto; */
+	/* margin-top: 25%;
+	top: 50%; */
+	/* left: 50%; */
+	/* margin-right: -50%; */
+	/* margin-left: -50%; */
+	/* transform: translate(-50%, -50%); */
+	text-align: center;
+}
+
+#footer_container02 {
+	background: #BBBCCC;
+	/* background: #EEECCC; */
+	/* background: #CCCCCC; */
+	color: black;
+	border-radius: 1em;
+	padding: 0.5em;
+	/* position: relative; */
+	/* display: block; */
+	margin: 0px auto;
+	display: inline-block;
+	/* margin: 0px auto; */
+	/* margin-left: auto;
+	margin-right: auto; */
+	/* margin-top: 25%;
+	top: 50%; */
+	/* left: 50%; */
+	/* margin-right: -50%; */
+	/* margin-left: -50%; */
+	/* transform: translate(-50%, -50%); */
+	text-align: center;
+}
+
+#instructions_toggler {
+	
+}
+
+#instructions_togglee {
+	visibility: hidden; 
+}
+
+#nav ul { /* submenu */ 
+  position:absolute; 
+  left:0; 
+  display:none; 
+  margin:0 0 0 -1px;
+  padding:0; 
+  list-style:none;
+  z-index:9999;
+}
+
+#nav ul li {
+  width:100px; 
+  float:left; 
+  z-index:9999;
+  border-top:1px solid #fff;
+}
+
+
+/*========================================================================== */
+/* Base styles: opinionated defaults */
+/*========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/*========================================================================== */
+/* Browser Upgrade Prompt */
+/*========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/*========================================================================== */
+/* Author's Custom Styles */
+/*========================================================================== */
+
+
+/*========================================================================== */
+/* Helper Classes */
+/*========================================================================== */
+
+/*
+ * Hide visually and from screen readers:
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*========================================================================== */
+/* EXAMPLE Media Queries for Responsive Design */
+/* These examples override the primary ('mobile first') styles. */
+/* Modify as content requires. */
+/*========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+
+/*========================================================================== */
+/* Print Styles */
+/* Inlined to avoid the additional HTTP request: */
+/* http://www.phpied.com/delay-loading-your-print-css/ */
+/*========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
